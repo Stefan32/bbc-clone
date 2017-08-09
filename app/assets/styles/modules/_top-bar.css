@@ -1,0 +1,55 @@
+.top-bar {
+
+  width: 1000px;
+  margin: 0 auto;
+  height: 40px;
+
+    &--logo {
+      margin-top: 8px;
+      margin-right: 8px;
+      float: left;
+    }
+
+    &--sign-in {
+      float: left;
+      border-left: 1px #CCCCCC solid;
+      height: 100%;
+    }
+
+    &--sign-in-image {
+      width: 25px;
+      margin: 10px 15px;
+      float: left;
+    }
+
+    &--sign-in-text {
+      font-weight: bold;
+      font-size: 90%;
+      position: relative;
+      top: 13px;
+      padding-right: 10px;
+    }
+
+    &--menu {
+      float: left;
+      border-left: 1px #CCCCCC solid;
+      height: 100%;
+      font-weight: bold;
+      padding: 13px 15px 0 15px;
+    }
+
+    &--search-box {
+      background-color: #E4E4E4;
+      border: none;
+      font-weight: bold;
+      padding: 5px;
+      margin: 7px 0 7px 7px;
+      float: left;
+    }
+
+    &--magnify {
+      margin-top: 7px;
+      height: 70%;
+    }
+
+}
